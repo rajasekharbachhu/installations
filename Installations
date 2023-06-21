@@ -33,5 +33,12 @@ choco upgrade bicep
 choco uninstall bicep
 
 
+#Kubernatives
+choco install kubernetes-cli
+choco upgrade kubernetes-cli
+choco uninstall kubernetes-cli
+
+
+
 
 
