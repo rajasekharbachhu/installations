@@ -1,0 +1,28 @@
+
+# Choclate Installtion
+Get-ExecutionPolicy
+#  If it returns Restricted, then run
+Set-ExecutionPolicy AllSigned  #or
+Set-ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+#Terraform Installtion
+choco install terraform
+choco upgrade terraform
+choco uninstall terraform
+
+
+#Git Installtion
+choco install git.install
+choco upgrade git.install
+choco uninstall git.install
+
+
+#Docker Installtion
+choco install docker #CUI
+choco upgrade docker
+choco uninstall docker
+choco install docker-desktop #GUI
+choco upgrade docker-desktop
+choco uninstall docker-desktop
+
