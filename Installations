@@ -26,3 +26,12 @@ choco install docker-desktop #GUI
 choco upgrade docker-desktop
 choco uninstall docker-desktop
 
+
+#Biceps
+choco install bicep
+choco upgrade bicep
+choco uninstall bicep
+
+
+
+
